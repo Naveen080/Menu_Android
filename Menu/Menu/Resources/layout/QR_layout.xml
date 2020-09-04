@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"> 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="QR Scanner"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    <SurfaceView
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/surfaceView1"/>
+    <TextView  
+        android:layout_centerInParent="true"  
+        android:gravity="center_horizontal"  
+        android:id="@+id/QR_textView"  
+        android:layout_below="@id/surfaceView1"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="Please focus Camera to QR Code"  
+        android:textSize="20sp"  
+        android:autoLink="web"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>
