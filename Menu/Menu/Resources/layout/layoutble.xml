@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp">
+
+        <Button
+        android:id="@+id/btnStatus_Clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"/>
+        <Button
+            android:id="@+id/btnScan_Clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan"/>
+        <Button
+            android:id="@+id/btnConnect_Clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"/>
+    </LinearLayout>
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/btnGetServices_Clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get list of Services"/>
+    <Button
+        android:id="@+id/btnGetcharacters_Clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Characters"/>
+    <Button
+        android:id="@+id/btnGetRW_Clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"/>
+   </LinearLayout>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
